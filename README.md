@@ -2,7 +2,8 @@
 JavaScript 基于ip地址获取的经纬度信息计算日出日落时间  
 使用的获取地理信息api https://ip.seeip.org/geoip  
 获取ip地址api https://ip.seeip.org  
-实现原理 https://blog.csdn.net/liu877260630/article/details/80482159?spm=1001.2014.3001.5501  
+实现原理 https://blog.csdn.net/liu877260630/article/details/80482159?spm=1001.2014.3001.5501   
+误差时间：最大30分钟  
 存在的问题：四节气以sin函数为模型，而实现时使用直线函数，在节气中间时间段可能存在误差
           可通过提供该月份具体天数提高精度
           可通过提供具体四时令时间提高精度
